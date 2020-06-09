@@ -1,3 +1,8 @@
+<!--
+ * @Author: wanjikun
+ * @LastEditTime: 2020-06-09 09:47:35
+ * @description: Do not edit
+--> 
 # nuxt-framework
 
 > nuxt基础脚手架
