@@ -1,14 +1,6 @@
-/*
- * @Author: wanjikun
- * @LastEditTime: 2020-06-05 10:53:33
- * @description: Do not edit
- */
 const Koa = require('koa')
 const consola = require('consola')
-const {
-  Nuxt,
-  Builder
-} = require('nuxt')
+const { Nuxt, Builder } = require('nuxt')
 
 const app = new Koa()
 
@@ -22,9 +14,8 @@ async function start() {
 
   const {
     host = process.env.HOST || '127.0.0.1',
-      port = process.env.PORT || 3000
+    port = process.env.PORT || 3000
   } = nuxt.options.server
-
   await nuxt.ready()
   // Build in development
   if (config.dev) {
