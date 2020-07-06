@@ -1,3 +1,3 @@
-# cqliving-fd-pc
+# nuxt-framework
 
-丰都新闻网，支持SEO
+nuxt基础脚手架支持docker容器化
