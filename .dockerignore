@@ -1,2 +1,9 @@
-#node_modules
-#.nuxt
+*
+!.nuxt
+!static
+!.env
+!globalCache.js
+!nuxt.config.js
+!package.json
+!pageCache.js
+!yarn.lock
